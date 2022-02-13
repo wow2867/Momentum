@@ -1,0 +1,63 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.modal_btn {
+    position: fixed;
+    right: 40px;
+    top: 20px;
+    width: 75px;
+    height: 75px;
+    cursor : pointer;
+    background-size: cover;
+}
+
+.timer {
+    font-weight: 1000;
+    font-size: 180px;
+    line-height: 150px;
+}
+
+.timer_txt {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    line-height: 110px;
+}
+
+.toDo_wrapper {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+}
+
+.toDo_title {
+    color: white;
+}
+
+.toDo_input {
+    color: white;
+}
+
+.toDo_input::placeholder {
+    color: white;
+}
+
+.toDo {
+    color: white;
+    font-size: 40px;
+}
